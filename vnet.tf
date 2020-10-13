@@ -1,5 +1,5 @@
 module "network" {
-  source              = "app.terraform.io/wolfer-training/network/azurerm"
+  source              = "app.terraform.io/marcel-training/network/azurerm"
   version             = "3.2.2"
   resource_group_name = "${var.prefix}-workshop"
   address_space       = "10.0.0.0/16"
