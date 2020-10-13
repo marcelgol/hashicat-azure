@@ -101,7 +101,8 @@ resource "azurerm_virtual_machine" "catapp" {
 
   tags = {
     Department = "devops",
-    Billable = "true"
+    Billable = "true",
+    Test = "test",
   }
 
   storage_image_reference {
